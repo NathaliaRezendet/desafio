@@ -1,0 +1,36 @@
+{
+    "products": [
+        {
+            "name": "TÊNIS COURO PUMA R698 Q4 V2",
+            "star": 1,
+            "oldPrice": 299,
+            "price": 399,
+            "installments": 3,
+            "installments_price": 133
+        },
+        {
+            "name": "TÊNIS COURO PUMA R698 Q4 V2",
+            "star": 1,
+            "oldPrice": 299,
+            "price": 399,
+            "installments": 3,
+            "installments_price": 133
+        },
+        {
+            "name": "TÊNIS COURO PUMA R698 Q4 V2",
+            "star": 1,
+            "oldPrice": 299,
+            "price": 399,
+            "installments": 3,
+            "installments_price": 133
+        },
+        {
+            "name": "TÊNIS COURO PUMA R698 Q4 V2",
+            "star": 1,
+            "oldPrice": 299,
+            "price": 399,
+            "installments": 3,
+            "installments_price": 133
+        }
+    ]
+}

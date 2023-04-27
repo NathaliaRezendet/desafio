@@ -1,0 +1,116 @@
+.products-container {
+    width: 50%;
+    margin: 110px auto 170px;
+
+}
+
+.products-container .title-container {
+    margin-left: 40px;
+}
+
+.products-container .title-container h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #011627;
+}
+
+.products-container .title-container .line {
+    width: 65px;
+    border-bottom: 4.3px solid #FF9F1C;
+    margin: 11px 0 20px;
+}
+
+.products-container .card-container {
+    width: 216px;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-container .navigation-container .card-container:nth-child(2) {
+    background: #F2F2F2;
+    border: 1.44041px solid #F2F2F2;
+}
+
+.products-container .navigation-container .card-container:not(:nth-child(2)) {
+    background: #FFFFFF;
+
+}
+
+.products-container .navigation-container .card-container:not(:nth-child(2)) .btn-buy {
+    display: none;
+}
+
+.products-container .navigation-container {
+    display: flex;
+    align-items: center;
+    gap: 0 26px;
+}
+
+.products-container .navigation-container .card-container .tennis {
+    padding: 29px 18px;
+}
+
+.products-container .navigation-container .card-container .product-name {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+.products-container .navigation-container .card-container .product-old-price {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #7A7A7A;
+}
+
+.products-container .navigation-container .card-container .product-price {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #2EC4B6;
+}
+
+.products-container .navigation-container .card-container .product-installments {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+.products-container .navigation-container .card-container .btn-buy {
+    width: 125.28px;
+    height: 32.42px;
+    background: #2EC4B6;
+    border-radius: 5px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 7.92px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 16px;
+}
