@@ -41,7 +41,7 @@ $ npm run dev
 
 ## ou
 
-<p style="font-size: 20px; "><strong>Para acessar o deploy da aplicação:</strong> <a href="" target="_blank" style="font-size: 20px">clique aqui!</a></p>
+<p style="font-size: 20px; "><strong>Para acessar o deploy da aplicação:</strong> <a href="https://desafio-three.vercel.app/" target="_blank" style="font-size: 20px">clique aqui!</a></p>
 
 
 # Tecnologias e ferramentas utilizadas
