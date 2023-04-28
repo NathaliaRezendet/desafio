@@ -8,6 +8,11 @@ function header() {
     return (
         <div className="header">
             <div className="container">
+                <div className='mobile-menu'>
+                    <div className='line1'></div>
+                    <div className='line2'></div>
+                    <div className='line3'></div>
+                </div>
                 <div className="container-input">
                     <p>O que está procurando?</p>
                     <img className="searchIcon" src={search} />
