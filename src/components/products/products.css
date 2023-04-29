@@ -1,11 +1,11 @@
 .products-container {
-    width: 50%;
+    width: fit-content;
     margin: 110px auto 170px;
 
 }
 
 .products-container .title-container {
-    margin-left: 40px;
+    padding-left: 50px;
 }
 
 .products-container .title-container h1 {
@@ -23,6 +23,20 @@
     margin: 11px 0 20px;
 }
 
+.products-container .navigation-container {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    gap: 0 26px;
+}
+
+.products-container .navigation-container .wrap {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+ }
 .products-container .card-container {
     width: 216px;
     height: 353px;
@@ -31,24 +45,18 @@
     align-items: center;
 }
 
-.products-container .navigation-container .card-container:nth-child(2) {
+.products-container .navigation-container .card-container:first-child {
     background: #F2F2F2;
     border: 1.44041px solid #F2F2F2;
 }
 
-.products-container .navigation-container .card-container:not(:nth-child(2)) {
+.products-container .navigation-container .card-container:not(:first-child) {
     background: #FFFFFF;
 
 }
 
-.products-container .navigation-container .card-container:not(:nth-child(2)) .btn-buy {
+.products-container .navigation-container .card-container:not(:first-child) .btn-buy {
     display: none;
-}
-
-.products-container .navigation-container {
-    display: flex;
-    align-items: center;
-    gap: 0 26px;
 }
 
 .products-container .navigation-container .card-container .tennis {
@@ -113,4 +121,42 @@
     font-weight: bolder;
     font-size: 14px;
     line-height: 16px;
+}
+
+@media(max-width: 650px) {
+    .products-container {
+        position: relative;
+        width: 633px;
+        margin-top: 450px;
+        padding: 0 20px;
+        overflow-x: hidden;
+    }
+    .products-container .title-container {
+        padding-left: 20px;
+    }
+    .products-container .navigation-container {
+        max-width: fit-content;
+        max-height: fit-content;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .products-container .navigation-container .wrap {
+        max-height: fit-content;
+        max-width: fit-content;
+        justify-content: start;
+        gap: 0;
+    }
+    .products-container .navigation-container .arrow-left, .arrow-right {
+        display: none;
+    }
+    .products-container .navigation-container .card-container:not(:first-child) .btn-buy {
+        display: unset;
+    } 
+    .products-container .navigation-container .card-container:first-child {
+        background: #FFFFFF;
+        border: none;
+    }
+    .products-container .navigation-container .card-container .tennis {
+        width: 112px;
+     }
 }

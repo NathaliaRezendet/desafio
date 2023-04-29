@@ -15,16 +15,22 @@ export default function products() {
                 <div className="line"></div>
             </div>
             <div className='navigation-container'>
-                <img src={left} />
-                
+                <img className='arrow-left' src={left} />
+              
+               <div className='wrap'>
+
+               
                 { data.products.map((item, i)=> ( 
 
                 <div key={i} className='card-container'>
                     <img className='tennis' src={tennis}/>
                     <p className='product-name'>{item.name}</p>
                     <div className='star-container'>
-                        <img src=''/>
-
+                        <img src={starOrange}/>
+                        <img src={star}/>
+                        <img src={star}/>
+                        <img src={star}/>
+                        <img src={star}/>
                     </div>
                     <p className='product-old-price'>de R$ {item.oldPrice.toFixed(2).replace('.',',')}</p>
                     <p className='product-price'>por {item.price.toFixed(2).replace('.',',')}</p>
@@ -32,9 +38,10 @@ export default function products() {
                     <button className='btn-buy'><img src={cartWhite}/> Comprar</button>
                 </div>
                 ))}
-             
-                <img src={right} />
                 </div>
+                    <img className='arrow-right' src={right} />
+                </div>
+                
         </div>
     )
 }
